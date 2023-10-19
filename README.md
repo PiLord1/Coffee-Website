@@ -1,1 +1,3 @@
-# Coffee-Website
+# Coffee Website
+
+Used HTML and CSS
