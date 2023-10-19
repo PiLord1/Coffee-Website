@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -189,7 +190,7 @@ a.about-btn {
     border: 1px solid white;
 }
 
-.hot-coffee-row1, .hot-coffee-row2, .cold-coffee-row1, .cold-coffee-row2 {
+.hot-coffee-row1, .hot-coffee-row2, .cold-coffee-row1, .cold-coffee-row2, .customers {
     justify-content: center;
     display: flex;
     flex-flow: row wrap;
@@ -198,6 +199,10 @@ a.about-btn {
 }
 
 .hot-coffee-row2, .cold-coffee-row2 {
+    margin-bottom: 3.3rem;
+}
+
+.hot-coffee-row2 {
     margin-bottom: 3.3rem;
 }
 
@@ -233,13 +238,50 @@ a.cart-btn {
     font-size: 1rem;
 }
 
+.customer {
+    height: 440px;
+    border: 1px solid #969D9B;
 
+}
 
+.customer-img img {
+    border-radius: 50%;
+    margin: 2rem auto 0.8rem 0;
+}
 
+.customer p {
+    font-size: 1.1rem;
+    padding: 0 1.4rem;
+    line-height: 2rem;
+    color: #969D9B;
+    font-family: 'Nunito', sans-serif;
+}
 
+.customer h3, .customer p {
+    color: #969D9B;
+}
 
+/* CHANGE THIS TO 4.5 STAR */
+.star-rating {
+    display: inline-block;
+    font-size: 0; 
+}
 
+.star {
+    list-style: none; 
+    display: inline-block;
+    width: 25px; 
+    height: 20px;
+    margin: 0;
+    padding-top: 1rem;
+    position: relative;
+}
 
+.star::before {
+    content: "\2605"; 
+    font-size: 25px;
+    color: #D2AB77; 
+}
 
 
 
